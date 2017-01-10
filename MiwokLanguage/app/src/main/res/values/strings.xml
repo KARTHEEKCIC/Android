@@ -1,0 +1,54 @@
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Miwok</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family Members</string>
+    <!--english name for 1 in the numbers category-->
+    <string name="one">One</string>
+    <!--english name for 2 in the numbers category-->
+    <string name="two">Two</string>
+    <!--english name for 3 in the numbers category-->
+    <string name="three">Three</string>
+    <!--english name for 4 in the numbers category-->
+    <string name="four">Four</string>
+    <!--english name for 5 in the numbers category-->
+    <string name="five">Five</string>
+    <!--english name for 6 in the numbers category-->
+    <string name="six">Six</string>
+    <!--english name for 7 in the numbers category-->
+    <string name="seven">Seven</string>
+    <!--english name for 8 in the numbers category-->
+    <string name="eight">Eight</string>
+    <!--english name for 9 in the numbers category-->
+    <string name="nine">Nine</string>
+    <!--english name for 10 in the numbers category-->
+    <string name="ten">Ten</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
