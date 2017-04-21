@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kartheek.quickdeal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QuickDealActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:label="Chats">
+        </activity>
+        <activity android:name=".ElectronicActivity"
+                  android:label="Electronics">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuickDealActivity" />
+        </activity>
+        <activity
+            android:name=".DealDoneActivity"
+            android:theme="@style/dealdone">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChatActivity" />
+        </activity>
+        <activity android:name=".ServicesActivity"
+                  android:label="Services">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ElectronicActivity" />
+        </activity>
+    </application>
+
+</manifest>

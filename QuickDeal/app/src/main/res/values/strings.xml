@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Quickdeal</string>
+    <string-array name="categories">
+        <item>APPAREL, TEXTILES &amp; ACCESSORIES</item>
+        <item>AUTO &amp; TRANSPORTATION</item>
+        <item>ELECTRONIC &amp; ALLPICANCES</item>
+        <item>HARDWARE &amp; TOOLS</item>
+        <item>APPAREL, TEXTILES &amp; ACCESSORIES</item>
+        <item>AUTO &amp; TRANSPORTATION</item>
+    </string-array>
+    <string name="settings_menu">Settings</string>
+    <string name="chat">Chats</string>
+    <string name="login">User Login</string>
+    <string name="search">Search</string>
+
+    <string-array name="electronic_categories">
+        <item>LIGHTS &amp; LIGHTNING PRODUCT</item>
+        <item>SWITCHES &amp; SWITCHGEARS</item>
+        <item>ELECTRONIC FITTINGS &amp; COMPONENTS</item>
+        <item>ELECTRICAL &amp; ELECTRONIC CONNECTORS</item>
+        <item>AIR CONDITIONING &amp; HEATING EQUIPMENT</item>
+        <item>ELECTRICAL CABLES &amp; WIRES</item>
+    </string-array>
+
+    <string-array name="serviceprovider">
+        <item>GLOBAL ELECTRONICS</item>
+        <item>KRISHNA LIGHT JUNCTION</item>
+        <item>PATEL ELECTRONICS</item>
+        <item>ECO LIGHTNING SOLUTIONS</item>
+    </string-array>
+    
+    <string-array name="location">
+        <item>0.8 km away</item>
+        <item>0.9 km away</item>
+        <item>1.2 km away</item>
+        <item>1.8 km away</item>
+    </string-array>
+</resources>
