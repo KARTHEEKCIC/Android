@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackground"
+    android:id="@+id/earthquakeListItem">
+    <TextView
+        android:id="@+id/magnitude"
+        android:background="@drawable/magnitude_circle"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center_vertical"
+        android:textSize="16sp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:id="@+id/distance"
+            style="@style/earthquakeListItem"
+            android:textAllCaps="true"
+            android:textColor="@color/textColorEarthquakeDetails"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:fontFamily="sans-serif-medium" />
+        <TextView
+            android:id="@+id/city"
+            style="@style/earthquakeListItem"
+            android:textSize="16sp"
+            android:textColor="@color/textColorEarthquakeLocation"
+            android:ellipsize="end"
+            android:maxLines="2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:id="@+id/date"
+            style="@style/earthquakeListItem"
+            android:textColor="@color/textColorEarthquakeDetails" />
+        <TextView
+            android:id="@+id/time"
+            style="@style/earthquakeListItem"
+            android:textAllCaps="true"
+            android:textColor="@color/textColorEarthquakeDetails" />
+    </LinearLayout>
+
+</LinearLayout>
