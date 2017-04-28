@@ -8,14 +8,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".QuickDealActivity"
-    android:background="@drawable/ic_background" >
+    android:background="#BDBDBD" >
 
     <include layout="@layout/menu_bar"
         android:id="@+id/toolbar"/>
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ic_background"
+        android:layout_height="match_parent"
+        android:background="#BDBDBD"
         android:id="@+id/electronic_list"
         android:dividerHeight="8dp"
         android:padding="8dp"

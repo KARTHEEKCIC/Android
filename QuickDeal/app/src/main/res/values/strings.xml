@@ -35,4 +35,37 @@
         <item>1.2 km away</item>
         <item>1.8 km away</item>
     </string-array>
+
+    <string-array name="chat_list_title">
+        <item>GLOBAL ELECTRONICS</item>
+        <item>PATEL ELECTRONICS</item>
+        <item>BOMBAY ELECTRONICS</item>
+        <item>OPERA SOLUTIONS</item>
+        <item>HARI OM ELECTRONICS</item>
+    </string-array>
+
+    <string-array name="chat_list_body">
+        <item>Fine Sir. We will deliver sample on your registered address</item>
+        <item>Yes Sir, We have the product available in our stock sir and we will deliver it</item>
+        <item>Thank You Sir!</item>
+        <item>No problem Sir. We will update you soon.</item>
+        <item>Sorry sir. But you can check out in other sections</item>
+    </string-array>
+
+    <integer-array name="chat_list_unread_messages">
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="chat_list_time">
+        <item>2 min ago</item>
+        <item>5 min ago</item>
+        <item>10 min ago</item>
+        <item>30 min ago</item>
+        <item>2 days ago</item>
+    </string-array>
+
 </resources>

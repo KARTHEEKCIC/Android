@@ -15,7 +15,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".QuickDealActivity"
-    android:background="@drawable/ic_background" >
+    android:background="#BDBDBD" >
 
     <include layout="@layout/menu_bar"
              android:id="@+id/toolbar" />
@@ -26,7 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:columnWidth="150dp"
-        android:padding="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:minHeight="180dp"
         android:numColumns="auto_fit"
         android:verticalSpacing="10dp"
         android:horizontalSpacing="10dp"

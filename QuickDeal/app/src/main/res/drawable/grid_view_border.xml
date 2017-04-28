@@ -5,8 +5,5 @@
         android:radius="25dp"
         />
     <solid android:color="#FAFAFA" />
-    <!--<stroke-->
-        <!--android:width="2dp"-->
-        <!--android:color="#fd0261" ></stroke>-->
 
 </shape>

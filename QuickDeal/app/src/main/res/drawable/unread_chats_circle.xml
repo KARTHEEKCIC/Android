@@ -4,7 +4,6 @@
     android:shape="oval">
     <solid android:color="@color/unreadChatCircle" />
     <size
-        android:width="30dp"
-        android:height="30dp" />
-    <corners android:radius="16dp" />
+        android:width="22dp"
+        android:height="22dp" />
 </shape>

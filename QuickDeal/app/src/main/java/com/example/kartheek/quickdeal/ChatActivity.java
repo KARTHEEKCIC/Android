@@ -41,10 +41,7 @@ public class ChatActivity extends AppCompatActivity {
         }
 
         //data set for the adapter
-        ls = new ArrayList<ChatItem>();
-        ls.add(new ChatItem("GLOBAL ELECTRONICS",1,"Fine Sir","2 min ago",false));
-        ls.add(new ChatItem("PATEL ELECTRONICS",2,"Good Morning Sir","5 min ago",false));
-        ls.add(new ChatItem("BOMBAY ELECTRONICS",0,"Thank You Sir","10 min ago",false));
+        ls = createChatListItems();
 
         //checking for deals and updating the data set
         checkDeals(sharedPreferences);
@@ -79,5 +76,25 @@ public class ChatActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),"Search for the chat",Toast.LENGTH_SHORT).show();
         }
         return true;
+    }
+
+    public List<ChatItem> createChatListItems() {
+        List<ChatItem> list = new ArrayList<ChatItem>();
+
+        // titles of the chat list
+        String [] chatTitle = getApplicationContext().getResources().getStringArray(R.array.chat_list_title);
+        // number of unread messages of the chats
+        int [] chatUnreadMessages = getApplicationContext().getResources().getIntArray(R.array.chat_list_unread_messages);
+        // body of the chats
+        String [] chatBody = getApplicationContext().getResources().getStringArray(R.array.chat_list_body);
+        // time when the last message came
+        String [] chatTime = getApplicationContext().getResources().getStringArray(R.array.chat_list_time);
+
+        // loop to add the objects of ChatItem which contains the data of each chat to the list
+        for(int i=0 ; i<chatBody.length ; i++) {
+            Log.e("ChatActivity",chatUnreadMessages[i] + "");
+            list.add(new ChatItem(chatTitle[i],chatUnreadMessages[i],chatBody[i],chatTime[i],false));
+        }
+        return list;
     }
 }
